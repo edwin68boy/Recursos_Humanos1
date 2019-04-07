@@ -199,6 +199,9 @@
     <Compile Include="Models\Licencia.cs">
       <DependentUpon>RH_Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Nomina.cs">
+      <DependentUpon>RH_Model.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Permiso.cs">
       <DependentUpon>RH_Model.tt</DependentUpon>
     </Compile>

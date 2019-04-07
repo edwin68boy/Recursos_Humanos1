@@ -33,5 +33,6 @@ namespace RecursosHumanos.Models
         public virtual DbSet<Salida_Empleados> Salida_Empleados { get; set; }
         public virtual DbSet<Tipo_Salida> Tipo_Salida { get; set; }
         public virtual DbSet<Vacacione> Vacaciones { get; set; }
+        public virtual DbSet<Nomina> Nominas { get; set; }
     }
 }

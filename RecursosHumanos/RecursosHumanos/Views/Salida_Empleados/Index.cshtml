@@ -33,7 +33,7 @@
             @Html.DisplayFor(modelItem => item.Empleado.Nombre)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Fecha_Salida)
+            @Html.TextBoxFor(ModelItem => item.Fecha_Salida, "{0:dd-MMM-yyyy}", new { @style = "outline: none; border: none; ", @readonly = true })
         </td>
         <td>
             
