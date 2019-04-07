@@ -183,6 +183,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EmpleadoesController.cs" />
+    <Compile Include="Controllers\NominasController.cs" />
     <Compile Include="Controllers\Salida_EmpleadosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -248,6 +249,11 @@
     <Content Include="Views\Empleadoes\Details.cshtml" />
     <Content Include="Views\Empleadoes\Edit.cshtml" />
     <Content Include="Views\Empleadoes\Index.cshtml" />
+    <Content Include="Views\Nominas\Create.cshtml" />
+    <Content Include="Views\Nominas\Delete.cshtml" />
+    <Content Include="Views\Nominas\Details.cshtml" />
+    <Content Include="Views\Nominas\Edit.cshtml" />
+    <Content Include="Views\Nominas\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
