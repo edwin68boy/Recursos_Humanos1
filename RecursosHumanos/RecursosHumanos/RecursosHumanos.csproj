@@ -182,9 +182,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CargoesController.cs" />
+    <Compile Include="Controllers\DepartamentoesController.cs" />
     <Compile Include="Controllers\EmpleadoesController.cs" />
+    <Compile Include="Controllers\LicenciasController.cs" />
     <Compile Include="Controllers\NominasController.cs" />
+    <Compile Include="Controllers\PermisoesController.cs" />
     <Compile Include="Controllers\Salida_EmpleadosController.cs" />
+    <Compile Include="Controllers\VacacionesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -254,6 +259,33 @@
     <Content Include="Views\Nominas\Details.cshtml" />
     <Content Include="Views\Nominas\Edit.cshtml" />
     <Content Include="Views\Nominas\Index.cshtml" />
+    <Content Include="Views\Empleadoes\ActiveClients.cshtml" />
+    <Content Include="Views\Cargoes\Create.cshtml" />
+    <Content Include="Views\Cargoes\Delete.cshtml" />
+    <Content Include="Views\Cargoes\Details.cshtml" />
+    <Content Include="Views\Cargoes\Edit.cshtml" />
+    <Content Include="Views\Cargoes\Index.cshtml" />
+    <Content Include="Views\Departamentoes\Create.cshtml" />
+    <Content Include="Views\Departamentoes\Delete.cshtml" />
+    <Content Include="Views\Departamentoes\Details.cshtml" />
+    <Content Include="Views\Departamentoes\Edit.cshtml" />
+    <Content Include="Views\Departamentoes\Index.cshtml" />
+    <Content Include="Views\Vacaciones\Create.cshtml" />
+    <Content Include="Views\Vacaciones\Delete.cshtml" />
+    <Content Include="Views\Vacaciones\Details.cshtml" />
+    <Content Include="Views\Vacaciones\Edit.cshtml" />
+    <Content Include="Views\Vacaciones\Index.cshtml" />
+    <Content Include="Views\Permisoes\Create.cshtml" />
+    <Content Include="Views\Permisoes\Delete.cshtml" />
+    <Content Include="Views\Permisoes\Details.cshtml" />
+    <Content Include="Views\Permisoes\Edit.cshtml" />
+    <Content Include="Views\Permisoes\Index.cshtml" />
+    <Content Include="Views\Licencias\Create.cshtml" />
+    <Content Include="Views\Licencias\Delete.cshtml" />
+    <Content Include="Views\Licencias\Details.cshtml" />
+    <Content Include="Views\Licencias\Edit.cshtml" />
+    <Content Include="Views\Licencias\Index.cshtml" />
+    <Content Include="Views\Empleadoes\InactiveClients.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
